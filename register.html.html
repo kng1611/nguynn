@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>register</title>
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <!-- logo---------------------------- -->
+    <div id="logo">
+        <h1>Logo</h1>
+    </div>
+    <!-- navigation----------------- -->
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">SignUp</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+    </nav>
+    <!-- form  ----------------- -->
+    <form action="./index.html" onsubmit="return ham1()">
+        <table>
+            <caption>Register Form</caption>
+            <caption><hr></caption>
+            <!-- fullName -->
+            <tr>
+                <td class="tdLeft">fullName</td>
+                <td><input id="name" type="text"></td>
+            </tr>
+            <!-- gender--- -->
+             <tr>
+                <td class="tdLeft">gender</td>
+                <td>
+                    <input class="ipChon" name="sex" value="Male" type="radio" checked> Male
+                    <input class="ipChon" name="sex" value="Female" type="radio"> Female
+                </td>
+             </tr>
+             <!-- dateOfBirth----- -->
+              <tr>
+                <td class="tdLeft">dateOfBirth</td>
+                <td><input id="dob" type="date"></td>
+              </tr>
+              <!-- address -->
+              <tr>
+                  <td class="tdLeft">address</td>
+                <td><input id="address" type="text"></td>
+              </tr>
+              <!-- email -->
+              <tr>
+                  <td class="tdLeft">email</td>
+                <td><input  id="email" type="text"></td>
+              </tr>
+              <!-- phone -->
+              <tr>
+                  <td class="tdLeft">phone</td>
+                <td><input id="phone" type="text"></td>
+              </tr>
+              <!-- country-- -->
+              <tr>
+                <td class="tdLeft">country</td>
+                <td>
+                    <select name="">
+                        <option value="Lao">Lao</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="VietNam" selected>VietNam</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Japan">Japan</option>
+                </td>
+              </tr>
+              <!-- button -->
+              <tr>
+                <td></td>
+                <td id="btn">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+
+              </tr>
+
+            
+            
+            
+        </table>
+    </form>
+    <!-- footer ---------------------->
+    <footer>
+        &copy; By Me, All Right Reserves
+    </footer>
+
+</body>
+</html>
